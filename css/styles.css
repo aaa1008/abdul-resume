@@ -1,0 +1,114 @@
+/*
+* Project: Resume Website
+* Author: Abdullah Al Hamoud
+* Date: January 2018
+*/
+
+/*
+* #1B3944 Navy
+* lightgrey Light Grey
+* white white
+* #252525 Black
+*/
+
+/*
+* Global styles
+*/
+html{
+  box-sizing: border-box;
+}
+
+*, *before, *after{
+  box-sizing: inherit;
+}
+
+body {
+  background: lightgrey;
+  font-family: 'Inconsolata', monospace, consolas;
+  margin: 0px;
+}
+
+a {
+  color: lightgrey
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.content-wrap{
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: auto;
+}
+
+/*
+* Header and Footer
+*/
+
+header, footer {
+  color: lightgrey;
+  background: #1B3944;
+  padding: 10px;
+}
+
+header h1, header h2, footer h2{
+  color: white;
+  margin: 0px;
+}
+
+.pro-img{
+  width: 200px;
+  margin:20px;
+  border-radius: 50%;
+
+}
+
+header{
+  text-align: center;
+}
+
+header h2{
+  margin: 10px;
+  border-style: groove;
+}
+
+h1,h2{
+  font-weight: 400;
+}
+
+h1{
+  font-size: 50px
+}
+
+h2{
+  margin-top: 0px;
+  font-size: 40px
+}
+
+/* footer */
+
+footer{
+  text-align: center;
+}
+
+.contact a {
+  padding: 10px;
+  display: inline-block;
+}
+
+/*
+* Work Experience and Education
+*/
+.work {
+  background: white;
+}
+
+.education {
+  background: lightgrey;
+}
+
+.tools {
+  background: white;
+}
