@@ -8,19 +8,19 @@
 * #1B3944 Navy
 * lightgrey Light Grey
 * white white
-* #252525 Black
+* black Black
 */
 
 /*
 * Global styles
 */
-html{
+html {
   box-sizing: border-box;
 }
-
-*, *before, *after{
+*, *:before, *:after {
   box-sizing: inherit;
 }
+
 
 body {
   background: lightgrey;
@@ -40,7 +40,20 @@ a:hover{
   max-width: 950px;
   margin: 0 auto;
   padding: 50px;
-  overflow: auto;
+  overflow: hidden;
+}
+
+.col-narrow{
+  width: 30%;
+  float: left;
+  min-height: 115px;
+}
+
+.col-wide{
+  width: 70%;
+  float: left;
+  padding-left: 10px;
+  min-height: 115px;
 }
 
 /*
@@ -99,7 +112,7 @@ footer{
 }
 
 /*
-* Work Experience and Education
+* Work Experience, Education, Skills
 */
 .work {
   background: white;
@@ -111,4 +124,18 @@ footer{
 
 .tools {
   background: white;
+}
+
+.tools p{
+}
+
+.hobbies{
+  background: lightgrey;
+}
+
+
+.resume a{
+  padding: 10px;
+  font-size: 20px;
+  display: inline-block;
 }
