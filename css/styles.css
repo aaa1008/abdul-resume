@@ -51,8 +51,8 @@ a:hover{
 
 .col-wide{
   width: 70%;
-  float: left;
-  padding-left: 10px;
+  float: right;
+  padding-left: 15px;
   min-height: 115px;
 }
 
@@ -126,7 +126,8 @@ footer{
   background: white;
 }
 
-.tools p{
+.Tools{
+  padding-left: 10px;
 }
 
 .hobbies{
