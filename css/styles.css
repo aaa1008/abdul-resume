@@ -39,7 +39,7 @@ a:hover{
 .content-wrap{
   max-width: 950px;
   margin: 0 auto;
-  padding: 50px;
+  padding: 60px 50px;
   overflow: hidden;
 }
 
@@ -53,6 +53,12 @@ a:hover{
   width: 70%;
   float: right;
   padding-left: 5%;
+  min-height: 115px;
+}
+
+.col{
+  width: 25%;
+  float: left;
   min-height: 115px;
 }
 
@@ -100,8 +106,6 @@ h2{
   font-size: 40px
 }
 
-/* footer */
-
 footer{
   text-align: center;
 }
@@ -109,6 +113,27 @@ footer{
 .contact a {
   padding: 10px;
   display: inline-block;
+}
+
+/*
+* Navigation Buttons
+*/
+
+nav {
+  text-align: center;
+  position: fixed;
+  background: #1B3944;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+nav a{
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 /*
@@ -126,11 +151,7 @@ footer{
   background: white;
 }
 
-.Tools{
-  padding-left: 10px;
-}
-
-.hobbies{
+.projects{
   background: lightgrey;
 }
 
