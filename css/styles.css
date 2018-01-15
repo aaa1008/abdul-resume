@@ -43,24 +43,6 @@ a:hover{
   overflow: hidden;
 }
 
-.col-narrow{
-  width: 30%;
-  float: left;
-  min-height: 115px;
-}
-
-.col-wide{
-  width: 70%;
-  float: right;
-  padding-left: 5%;
-  min-height: 115px;
-}
-
-.col{
-  width: 25%;
-  float: left;
-  min-height: 115px;
-}
 
 /*
 * Header and Footer
@@ -81,6 +63,7 @@ header h1, header h2, footer h2{
   width: 200px;
   margin:20px;
   border-radius: 50%;
+  padding-top: 10px;
 
 }
 
@@ -151,6 +134,11 @@ header nav a{
   background: white;
 }
 
+.tools p, .tools h3 {
+  text-align: center;
+}
+
+
 .projects{
   background: lightgrey;
 }
@@ -160,4 +148,45 @@ header nav a{
   padding: 10px;
   font-size: 20px;
   display: inline-block;
+}
+
+/*
+* Media Queries
+*/
+
+
+@media (min-width: 350px) {
+
+  .col{
+    width: 50%;
+    float: left;
+    min-height: 115px;
+  }
+
+
+@media (min-width: 500px) {
+
+  .col{
+    width: 33.3%;
+    float: left;
+    min-height: 115px;
+  }
+
+@media (min-width: 900px) {
+
+  .col-narrow{
+    width: 30%;
+    float: left;
+    min-height: 115px;
+  }
+
+  .col-wide{
+    width: 70%;
+    float: right;
+    padding-left: 5%;
+    min-height: 115px;
+  }
+
+}
+
 }
