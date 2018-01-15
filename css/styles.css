@@ -134,15 +134,17 @@ header nav a{
   background: white;
 }
 
-.tools p, .tools h3 {
+.tools p {
   text-align: center;
 }
 
+.tools h3{
+  text-align: center;
+}
 
 .projects{
   background: lightgrey;
 }
-
 
 .resume a{
   padding: 10px;
@@ -162,7 +164,7 @@ header nav a{
     float: left;
     min-height: 115px;
   }
-
+}
 
 @media (min-width: 500px) {
 
@@ -171,6 +173,7 @@ header nav a{
     float: left;
     min-height: 115px;
   }
+}
 
 @media (min-width: 900px) {
 
@@ -186,7 +189,4 @@ header nav a{
     padding-left: 5%;
     min-height: 115px;
   }
-
-}
-
 }
