@@ -130,21 +130,22 @@ header nav a{
   background: lightgrey;
 }
 
-.tools {
+.projects {
   background: white;
 }
 
+.tools {
+  background: lightgrey;
+}
+
 .tools p {
-  text-align: center;
+  text-align: left;
 }
 
 .tools h3{
-  text-align: center;
+  text-align: left;
 }
 
-.projects{
-  background: lightgrey;
-}
 
 .resume a{
   padding: 10px;
