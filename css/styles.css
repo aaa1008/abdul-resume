@@ -39,7 +39,7 @@ a:hover{
 .content-wrap{
   max-width: 950px;
   margin: 0 auto;
-  padding: 60px 50px;
+  padding: 60px 50px 10px;
   overflow: hidden;
 }
 
@@ -94,7 +94,6 @@ footer{
 }
 
 .contact a {
-  padding: 10px;
   display: inline-block;
 }
 
@@ -148,7 +147,6 @@ header nav a{
 
 
 .resume a{
-  padding: 10px;
   font-size: 20px;
   display: inline-block;
 }
